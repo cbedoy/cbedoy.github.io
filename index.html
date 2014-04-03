@@ -1,73 +1,159 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Cbedoy.github.io by cbedoy</title>
-  </head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>tuktuk - Landing Example</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="../package/tuktuk.css">
+    <link rel="stylesheet" href="../package/tuktuk.theme.css">
+    <!-- TUKTUK.WIDGETS -->
+    <link rel="stylesheet" href="../package/tuktuk.icons.css">
+    <style>
+        body > header .logo {
+            margin-top: 8px;
+            margin-right: 8px;
+            max-height: 30px; }
 
-        <header>
-          <h1>Cbedoy.github.io</h1>
-          <h2></h2>
-        </header>
+        body > footer img {
+            height: 18px;
+            position: relative;
+            top: 5px;
+            left: 2px; }
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/cbedoy" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+        section.landing input {
+            border-radius: 5px 0px 0px 5px !important;
 
-        <hr>
+        }
 
-        <section id="main_content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        section.landing button {
+            border-radius: 0px 5px 5px 0px !important;}
+    </style>
+</head>
+<body class="text thin">
+    <!-- ========================== HEADER ========================== -->
+    <header class="bck margin-top margin-bottom">
+        <div class="row">
+            <div class="column_6">
+                <img src="../images/logo-color.png" class="logo on-left"/>
+                <h2 class="text italic thin">Landing Template</h2>
+            </div>
+            <nav class="column_6 text right">
+                <a href="#" class="button secondary"><span class="icon user"></span>Login</a>
+                <a href="#" class="button"><span class="icon pencil"></span>Signup</a>
+            </nav>
+        </div>
+    </header>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    <section class="bck darkest landing text center color white">
+        <div class="row">
+            <div class="column_10 offset_1">
+                <h1><strong>tuk</strong>tuk</h1>
+                <h2 class="margin-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column_6 offset_3 form subscribe">
+                <input type="email" id="mail" class="large" placeholder="Your email address">
+                <button class="button large icon envelope"></button>
+            </div>
+        </div>
+        <h5 class="text book">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    </section>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+    <section class="bck theme padding text center ">
+        <div class="row padding-bottom">
+            <div class="column_10 offset_1">
+                <h1 class="text book color default">Lorem ipsum dolor sit amet</h1>
+                <h4>
+                    Quam sunt quos minima consequatur dolore quaerat vel recusandae numquam ab qui dignissimos doloribus molestiae pariatur magnam libero nam consectetur asperiores maiores.
+                </h4>
+            </div>
+        </div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+        <div class="row padding-top">
+            <div class="column_3">
+                <h2 class="icon user"></h2>
+                <h5 class="text normal">Lorem ipsum dolor sit</h5>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, ipsam, explicabo, fugit in magni delectus aliquid.</small>
+            </div>
+            <div class="column_3">
+                <h2 class="icon group"></h2>
+                <h5 class="text normal">Lorem ipsum dolor sit</h5>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, ipsam, explicabo, fugit in magni delectus aliquid.</small>
+            </div>
+            <div class="column_3">
+                <h2 class="icon cog"></h2>
+                <h5 class="text normal">Lorem ipsum dolor sit</h5>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, ipsam, explicabo, fugit in magni delectus aliquid.</small>
+            </div>
+            <div class="column_3">
+                <h2 class="icon twitter"></h2>
+                <h5 class="text normal">Lorem ipsum dolor sit</h5>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, ipsam, explicabo, fugit in magni delectus aliquid.</small>
+            </div>
+        </div>
+    </section>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+    <section class="bck light padding">
+        <div class="row text thin center">
+            <div class="column_10 offset_1">
+                <h1 class="text book color theme">Lorem ipsum dolor sit amet</h1>
+                <h4>
+                    Quam sunt quos minima consequatur dolore quaerat vel recusandae numquam ab qui dignissimos doloribus molestiae pariatur magnam libero nam consectetur asperiores maiores.
+                </h4>
+            </div>
+        </div>
+    </section>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+    <section class="bck lightest landing">
+        <div class="row text center">
+            <div class="column_10 offset_1">
+                <h2 class="text bold color theme">Lorem ipsum dolor sit amet</h2>
+                <h4 class="text book italic">Quam sunt quos minima consequatur</h4>
+                <a href="#" class="button large margin-top">Yes, please!</a>
+            </div>
+        </div>
+    </section>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+    <section class="padding bck color">
+        <div class="row margin-bottom">
+            <div class="column_10 offset_1 text center">
+                <h1 class="color book theme">Author</h1>
+                <h3 class="text thin">Javi Jimenez is the CTO and co-founder of <a href="http://tapquo.com" class="text normal">tapquo</a>. A restless mind that always strives for continuous improvement, able to create frameworks like <a href="http://lungo.tapquo.com" class="text normal">Lungo</a>, <a href="http://quojs.tapquo.com" class="text normal">QuoJS</a>, <a href="http://monocle.tapquo.com" class="text normal">Monocle</a> used by thousands of developers around the world.</h3>
+             </div>
+         </div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        <div class="row ">
+            <div class="column_4 offset_4 text center">
+                <img src="http://cdn.tapquo.com/photos/soyjavi.jpg" class="responsive rounded margin-bottom"/>
+                <a href="https://twitter.com/soyjavi" class="twitter-follow-button " data-show-count="true" data-dnt="true">Follow @soyjavi</a>
+                <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                </script>
+            </div>
+        </div>
+    </section>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+    <footer class="bck dark padding">
+        <div class="row margin-top margin-bottom">
+            <div class="column_5">
+                <p class="text bold big">Handcrafted by <a href="http://tapquo.com" class="display inline"><img src="http://cdn.tapquo.com/images/logo_footer.png"/></a></p>
+                We're a  user experiences company located in <span class="text normal">Bilbao</span>, ES.
+            </div>
+            <div class="column_4">
+                <p class="text bold big">Join the team!</p>
+                Let us know how you're! <a href="mailto:hello@tapquo.com?subject=job" class="text underline color theme">Get in touch</a>
+            </div>
+            <div class="column_3">
+                <p class="text bold big">Need some help?</p>
+                For quick answers or help <a href="https://twitter.com/tapquo" target="_blank" class="text underline color theme">follow us</a>
+            </div>
+        </div>
+    </footer>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
-    </div>
-  </body>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="../package/tuktuk.js"></script>
+</body>
 </html>
