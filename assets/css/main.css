@@ -90,14 +90,14 @@ a:after {
 .navbar {
 	font-weight: 800;
 	font-size: 14px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: #ffffff;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background-color: #00796B;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
-	background-color: #74cfae;
+	color: #fafafa;
+	background-color: #FF6E40;
 }
 
 .navbar-brand {
@@ -108,7 +108,7 @@ a:after {
 
 .btn-theme {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: #FF6E40;
 	border-color: transparent;
 }
 
@@ -129,25 +129,26 @@ a:after {
 /* hello */
 #hello {
 	width: 100%;
-	padding-top: 250px;
-	padding-bottom: 250px;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	background-color: #f0f0f0;
 }
 
 #hello h1 {
 	font-size: 90px;
 	font-weight: 700;
 	letter-spacing: 3px;
-	color: #74cfae;
+	color: #FF6E40;
 }
 
 #hello h2 {
-	color: #c0c0c0;
+	color: #666666;
 	font-weight: 400;
 }
 
 /* Green */
 #green {
-	background-color: #74cfae;
+	background-color: #009688;
 	padding-top: 50px;
 	margin-bottom: 0px;
 }
@@ -190,7 +191,7 @@ a:after {
 
 #social i {
 	font-size: 50px;
-	color: #74cfae;
+	color: #80CBC4;
 }
 
 #social .col-md-3:hover {
@@ -204,11 +205,11 @@ a:after {
 /* Footer */
 #f {
 	padding-top: 20px;
-	background-color: #74cfae;
+	background-color: #FF6E40;
 }
 
 #f p {
-	color: white;
+	color: #FAFAFA;
 	text-align: right;
 	font-weight: 400;
 }

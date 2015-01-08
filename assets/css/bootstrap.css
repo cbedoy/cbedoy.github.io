@@ -4680,16 +4680,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #fafafa;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #FF6E40;
   background-color: transparent;
 }
 
