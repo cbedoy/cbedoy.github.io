@@ -10,8 +10,8 @@
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #545E6C;
-  background: #f5f5f5;
+  color: #357376;
+  background: #1d4d4f;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
@@ -26,7 +26,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2e4049;
+  color: #1d4d4f;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -34,7 +34,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #10171a;
+  color: #1d4d4f;
 }
 a:focus {
   text-decoration: none;
@@ -43,7 +43,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #4B6A78;
+  background: #e5dfdf;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -52,7 +52,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #4B6A78;
+  background: #357376;
   position: absolute;
   right: 0;
   width: 240px;
@@ -242,7 +242,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #6c92a3;
+  background: #357376;
 }
 .footer {
   padding: 30px;
