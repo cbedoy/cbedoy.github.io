@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #b4cfb0;
+  color: #376ac5;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #37aaef;
   text-decoration: underline;
 }
 
@@ -213,7 +213,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #b4cfb0;
+  color: #376ac5;
   text-align: left;
   caption-side: bottom;
 }
@@ -2589,7 +2589,7 @@ fieldset:disabled a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #fff;
   border-color: #dc3545;
 }
 .btn-danger:hover {
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #87b280 !important;
+  background-color: #111425 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9777,7 +9777,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #b4cfb0 !important;
+  color: #376ac5 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10079,7 +10079,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #37aaef;
 }
 
 .dev-icons {
