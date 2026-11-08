@@ -313,7 +313,14 @@ p { margin: 0 0 1em; }
   padding: clamp(24px, 3vw, 36px); border-radius: var(--radius);
   border: 1px solid var(--line); background: var(--surface);
 }
-.beyond-music, .beyond-drone { min-height: 280px; }
+.beyond-wide { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(24px, 4vw, 48px); align-items: center; }
+.beyond-drone { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+.beyond-drone .embed { order: -1; }
+.embed { border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); background: var(--bg-2); }
+.embed iframe { display: block; width: 100%; border: 0; }
+.embed-spotify iframe { height: 352px; }
+.embed-ig { position: relative; padding-bottom: calc(66.67% + 150px); background: #fff; }
+.embed-ig iframe { position: absolute; inset: 0; height: 100%; }
 .beyond-music {
   background:
     repeating-linear-gradient(90deg, transparent 0 9px, color-mix(in srgb, var(--accent) 9%, transparent) 9px 10px),
@@ -419,6 +426,8 @@ p { margin: 0 0 1em; }
   .stat { padding-right: 12px; }
   .portrait figcaption { left: -12px; bottom: 16px; }
   .craft-grid, .beyond-grid { grid-template-columns: 1fr; }
+  .beyond-wide, .beyond-drone { grid-template-columns: minmax(0, 1fr); }
+  .beyond-drone .embed { order: 0; }
   .job { grid-template-columns: 1fr; gap: 4px; }
   .job-when { padding-top: 0; }
   .socials { grid-template-columns: 1fr 1fr; }
